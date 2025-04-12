@@ -1,5 +1,5 @@
 "use client"
-
+import Image from "next/image"
 import { useState } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
@@ -34,10 +34,15 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-20 items-center justify-between">
-        <Link href="/" className="flex items-center space-x-2">
-          <div className="relative h-12 w-12 overflow-hidden rounded-full bg-primary">
-            <div className="absolute inset-0 flex items-center justify-center text-xl font-bold text-white">LG</div>
-          </div>
+        <Link href="/" className="flex items-center space-x-3">
+          {/* square logo */}
+          <Image
+        src="/lexglobe-logo.png" // Logo should be placed in your /public folder
+        alt="LexGlobe Partners Logo"
+        width={48}
+        height={48}
+        className="object-contain" // Keep square shape and aspect ratio
+      />
           <div className="hidden md:block">
             <h1 className="text-xl font-bold">LexGlobe Partners</h1>
             <p className="text-xs text-muted-foreground">Corporate Law Firm in Nepal</p>
