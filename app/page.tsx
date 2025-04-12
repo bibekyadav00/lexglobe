@@ -25,7 +25,7 @@ export default async function Home() {
       {/* Hero Section */}
       <section className="relative">
         <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-indigo-600/90" />
-        <div className="container relative z-10 flex min-h-[700px] flex-col items-center justify-center py-20 text-center text-white">
+        <div className="container relative z-10 flex min-h-[700px] flex-col items-center justify-center py-20 text-center text-primary">
           <div className="mb-8 inline-block rounded-full bg-white/20 p-3">
             <Scale className="h-12 w-12" />
           </div>
@@ -37,7 +37,7 @@ export default async function Home() {
             <Button asChild size="lg" className="bg-white text-primary hover:bg-gray-100">
               <Link href="/contact">Contact Us</Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+            <Button asChild size="lg" variant="outline" className="border-white text-primery hover:bg-white/10">
               <Link href="/practice-areas">Our Services</Link>
             </Button>
           </div>
