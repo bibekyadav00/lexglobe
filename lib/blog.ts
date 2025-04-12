@@ -7,7 +7,7 @@ const samplePosts: BlogPost[] = [
     slug: "corporate-law-nepal-overview",
     title: "An Overview of Corporate Law in Nepal",
     date: "March 15, 2025",
-    author: "Prabin Yadav",
+    author: "LexGlobe Partners",
     image: "/placeholder.svg?height=400&width=600&text=Corporate+Law",
     excerpt:
       "This article provides a comprehensive overview of corporate law in Nepal, including recent developments and key regulations that businesses should be aware of.",
@@ -50,7 +50,7 @@ const samplePosts: BlogPost[] = [
     slug: "foreign-direct-investment-nepal",
     title: "Foreign Direct Investment in Nepal: Legal Framework and Opportunities",
     date: "February 28, 2025",
-    author: "Prabin Yadav",
+    author: "LexGlobe Partners",
     image: "/placeholder.svg?height=400&width=600&text=FDI+Nepal",
     excerpt:
       "Explore the legal framework for foreign direct investment in Nepal, including recent policy changes, investment opportunities, and regulatory considerations.",
@@ -113,7 +113,7 @@ const samplePosts: BlogPost[] = [
     slug: "taxation-system-nepal",
     title: "Understanding the Taxation System in Nepal",
     date: "January 20, 2025",
-    author: "Prabin Yadav",
+    author: "LexGlobe Partners",
     image: "/placeholder.svg?height=400&width=600&text=Taxation+Nepal",
     excerpt:
       "A comprehensive guide to Nepal's taxation system, including income tax, value-added tax, corporate tax, and recent tax reforms affecting businesses.",
@@ -186,7 +186,7 @@ const samplePosts: BlogPost[] = [
     slug: "labor-laws-nepal",
     title: "Labor Laws in Nepal: Rights, Obligations, and Compliance",
     date: "December 10, 2024",
-    author: "Prabin Yadav",
+    author: "LexGlobe Partners",
     image: "/placeholder.svg?height=400&width=600&text=Labor+Laws",
     excerpt:
       "An in-depth analysis of Nepal's labor laws, including the Labor Act 2074, employee rights, employer obligations, and best practices for compliance.",
@@ -285,7 +285,7 @@ const samplePosts: BlogPost[] = [
     slug: "corporate-governance-nepal",
     title: "Corporate Governance in Nepal: Principles and Practices",
     date: "November 5, 2024",
-    author: "Prabin Yadav",
+    author: "LexGlobe Partners",
     image: "/placeholder.svg?height=400&width=600&text=Corporate+Governance",
     excerpt:
       "Explore the principles and practices of corporate governance in Nepal, including legal requirements, best practices, and the role of various stakeholders.",
@@ -412,7 +412,7 @@ export async function fetchExternalBlogPosts(): Promise<BlogPost[]> {
       slug: "company-registration-nepal",
       title: "Company Registration Process in Nepal",
       date: "March 10, 2025",
-      author: "Medhya Legal Team",
+      author: "LexGlobe Partners",
       image: "/placeholder.svg?height=400&width=600&text=Company+Registration",
       excerpt: "A step-by-step guide to registering a company in Nepal, including required documents and procedures.",
       content: "This content would be fetched from the external website.",
@@ -423,7 +423,7 @@ export async function fetchExternalBlogPosts(): Promise<BlogPost[]> {
       slug: "intellectual-property-nepal",
       title: "Intellectual Property Protection in Nepal",
       date: "February 15, 2025",
-      author: "Medhya Legal Team",
+      author: "LexGlobe Partners",
       image: "/placeholder.svg?height=400&width=600&text=IP+Protection",
       excerpt: "An overview of intellectual property laws in Nepal, including patents, trademarks, and copyrights.",
       content: "This content would be fetched from the external website.",
@@ -434,7 +434,7 @@ export async function fetchExternalBlogPosts(): Promise<BlogPost[]> {
       slug: "contract-law-nepal",
       title: "Contract Law in Nepal: Essential Elements and Enforcement",
       date: "January 25, 2025",
-      author: "Medhya Legal Team",
+      author: "LexGlobe Partners",
       image: "/placeholder.svg?height=400&width=600&text=Contract+Law",
       excerpt:
         "A comprehensive guide to contract law in Nepal, including formation, essential elements, and enforcement mechanisms.",
@@ -445,4 +445,3 @@ export async function fetchExternalBlogPosts(): Promise<BlogPost[]> {
 
   return externalPosts
 }
-

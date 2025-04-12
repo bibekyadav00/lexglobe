@@ -114,101 +114,6 @@ export default async function AboutPage() {
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="py-20">
-        <div className="container">
-          <div className="mb-12 text-center">
-            <h2 className="mb-4 text-3xl font-bold text-primary">Our Team</h2>
-            <p className="mx-auto max-w-2xl text-lg">
-              Meet our team of experienced attorneys dedicated to providing exceptional legal services.
-            </p>
-          </div>
-
-          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            <div className="group overflow-hidden rounded-lg bg-card shadow-sm transition-all hover:shadow-md">
-              <div className="relative h-64 w-full overflow-hidden">
-                <Image
-                  src="/placeholder.svg?height=300&width=300&text=Team+Member"
-                  alt="Team Member"
-                  fill
-                  className="object-cover transition-transform group-hover:scale-105"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="mb-1 text-xl font-bold">Prabin Yadav</h3>
-                <p className="mb-4 text-sm text-muted-foreground">Managing Partner</p>
-                <p className="mb-4">
-                  With over 15 years of experience in corporate law, Prabin leads our team with expertise in foreign
-                  investment, mergers & acquisitions, and corporate governance.
-                </p>
-                <div className="flex space-x-3">
-                  <Button variant="outline" size="sm">
-                    LinkedIn
-                  </Button>
-                  <Button variant="outline" size="sm">
-                    Email
-                  </Button>
-                </div>
-              </div>
-            </div>
-
-            <div className="group overflow-hidden rounded-lg bg-card shadow-sm transition-all hover:shadow-md">
-              <div className="relative h-64 w-full overflow-hidden">
-                <Image
-                  src="/placeholder.svg?height=300&width=300&text=Team+Member"
-                  alt="Team Member"
-                  fill
-                  className="object-cover transition-transform group-hover:scale-105"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="mb-1 text-xl font-bold">Anjali Sharma</h3>
-                <p className="mb-4 text-sm text-muted-foreground">Senior Associate</p>
-                <p className="mb-4">
-                  Anjali specializes in taxation and corporate compliance, helping businesses navigate the complex
-                  regulatory landscape in Nepal.
-                </p>
-                <div className="flex space-x-3">
-                  <Button variant="outline" size="sm">
-                    LinkedIn
-                  </Button>
-                  <Button variant="outline" size="sm">
-                    Email
-                  </Button>
-                </div>
-              </div>
-            </div>
-
-            <div className="group overflow-hidden rounded-lg bg-card shadow-sm transition-all hover:shadow-md">
-              <div className="relative h-64 w-full overflow-hidden">
-                <Image
-                  src="/placeholder.svg?height=300&width=300&text=Team+Member"
-                  alt="Team Member"
-                  fill
-                  className="object-cover transition-transform group-hover:scale-105"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="mb-1 text-xl font-bold">Rajesh Thapa</h3>
-                <p className="mb-4 text-sm text-muted-foreground">Associate</p>
-                <p className="mb-4">
-                  Rajesh focuses on dispute resolution and arbitration, representing clients in commercial disputes and
-                  regulatory matters.
-                </p>
-                <div className="flex space-x-3">
-                  <Button variant="outline" size="sm">
-                    LinkedIn
-                  </Button>
-                  <Button variant="outline" size="sm">
-                    Email
-                  </Button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Why Choose Us */}
       <section className="bg-muted py-20">
         <div className="container">
@@ -293,4 +198,3 @@ export default async function AboutPage() {
     </div>
   )
 }
-

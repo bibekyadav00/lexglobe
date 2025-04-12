@@ -1,15 +1,14 @@
 "use client"
-import Image from "next/image"
+
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import {
   NavigationMenu,
-  NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
 import { Menu, X } from "lucide-react"
@@ -34,15 +33,8 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-20 items-center justify-between">
-        <Link href="/" className="flex items-center space-x-3">
-          {/* square logo */}
-          <Image
-        src="/lexglobe-logo.png" // Logo should be placed in your /public folder
-        alt="LexGlobe Partners Logo"
-        width={48}
-        height={48}
-        className="object-contain" // Keep square shape and aspect ratio
-      />
+        <Link href="/" className="flex items-center space-x-2">
+          <Image src="/logo.png" alt="LexGlobe Partners Logo" width={50} height={50} className="h-12 w-auto" />
           <div className="hidden md:block">
             <h1 className="text-xl font-bold">LexGlobe Partners</h1>
             <p className="text-xs text-muted-foreground">Corporate Law Firm in Nepal</p>
@@ -59,27 +51,13 @@ export default function Header() {
                 </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavigationMenuTrigger>Practice Areas</NavigationMenuTrigger>
-                <NavigationMenuContent>
-                  <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-                    {practiceAreas.map((area) => (
-                      <li key={area.href}>
-                        <NavigationMenuLink asChild>
-                          <Link
-                            href={area.href}
-                            className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                          >
-                            <div className="text-sm font-medium leading-none">{area.title}</div>
-                          </Link>
-                        </NavigationMenuLink>
-                      </li>
-                    ))}
-                  </ul>
-                </NavigationMenuContent>
+                <Link href="/practice-areas" legacyBehavior passHref>
+                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>Practice Areas</NavigationMenuLink>
+                </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <Link href="/blog" legacyBehavior passHref>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>Blog</NavigationMenuLink>
+                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>Insights</NavigationMenuLink>
                 </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
@@ -109,18 +87,11 @@ export default function Header() {
             <Link href="/" className="text-lg font-medium" onClick={() => setIsMenuOpen(false)}>
               Home
             </Link>
-            <div className="flex flex-col space-y-2">
-              <p className="text-lg font-medium">Practice Areas</p>
-              <div className="ml-4 flex flex-col space-y-2">
-                {practiceAreas.map((area) => (
-                  <Link key={area.href} href={area.href} className="text-sm" onClick={() => setIsMenuOpen(false)}>
-                    {area.title}
-                  </Link>
-                ))}
-              </div>
-            </div>
+            <Link href="/practice-areas" className="text-lg font-medium" onClick={() => setIsMenuOpen(false)}>
+              Practice Areas
+            </Link>
             <Link href="/blog" className="text-lg font-medium" onClick={() => setIsMenuOpen(false)}>
-              Blog
+              Insights
             </Link>
             <Link href="/about" className="text-lg font-medium" onClick={() => setIsMenuOpen(false)}>
               About Us
@@ -134,4 +105,3 @@ export default function Header() {
     </header>
   )
 }
-

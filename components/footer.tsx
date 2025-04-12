@@ -1,17 +1,21 @@
 import Link from "next/link"
-import { Mail, MapPin, Phone, Facebook, Twitter, Linkedin, Instagram } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import Image from "next/image"
+import { Mail, MapPin, Phone, Facebook } from "lucide-react"
 
 export default function Footer() {
   return (
     <footer className="bg-gradient-to-r from-primary to-indigo-600 text-white">
       <div className="container py-16">
-        <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
           <div>
             <div className="mb-6 flex items-center">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white text-xl font-bold text-primary">
-                LG
-              </div>
+              <Image
+                src="/logo.png"
+                alt="LexGlobe Partners Logo"
+                width={50}
+                height={50}
+                className="h-12 w-auto bg-white rounded-full p-1"
+              />
               <div className="ml-3">
                 <h3 className="text-xl font-bold">LexGlobe Partners</h3>
                 <p className="text-xs text-white/80">Corporate Law Firm in Nepal</p>
@@ -21,17 +25,35 @@ export default function Footer() {
               A leading legal firm in Nepal specializing in corporate law and business advisory services.
             </p>
             <div className="flex items-center space-x-4">
-              <a href="#" className="rounded-full bg-white/10 p-2 transition-colors hover:bg-white/20">
+              <a
+                href="https://www.facebook.com/share/1QZkWEKUG8/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-full bg-white/10 p-2 transition-colors hover:bg-white/20"
+              >
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="rounded-full bg-white/10 p-2 transition-colors hover:bg-white/20">
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a href="#" className="rounded-full bg-white/10 p-2 transition-colors hover:bg-white/20">
-                <Linkedin className="h-5 w-5" />
-              </a>
-              <a href="#" className="rounded-full bg-white/10 p-2 transition-colors hover:bg-white/20">
-                <Instagram className="h-5 w-5" />
+              <a
+                href="https://www.youtube.com/@LexglobePartners"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-full bg-white/10 p-2 transition-colors hover:bg-white/20"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="h-5 w-5"
+                >
+                  <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+                  <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+                </svg>
               </a>
             </div>
           </div>
@@ -74,7 +96,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/blog" className="flex items-center transition-colors hover:text-white/80">
-                  <span className="mr-2">›</span> Blog
+                  <span className="mr-2">›</span> Insights
                 </Link>
               </li>
               <li>
@@ -83,19 +105,6 @@ export default function Footer() {
                 </Link>
               </li>
             </ul>
-          </div>
-
-          <div>
-            <h3 className="mb-6 text-xl font-bold">Newsletter</h3>
-            <p className="mb-4">Subscribe to our newsletter to receive the latest legal updates and insights.</p>
-            <div className="space-y-3">
-              <input
-                type="email"
-                placeholder="Your email address"
-                className="w-full rounded-md border border-white/30 bg-white/10 px-4 py-2 text-white placeholder-white/70"
-              />
-              <Button className="w-full bg-white text-primary hover:bg-white/90">Subscribe</Button>
-            </div>
           </div>
         </div>
 
@@ -117,4 +126,3 @@ export default function Footer() {
     </footer>
   )
 }
-

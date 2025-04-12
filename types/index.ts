@@ -19,4 +19,3 @@ export interface LegalImage {
   width: number
   height: number
 }
-

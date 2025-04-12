@@ -3,12 +3,19 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { ArrowRight, BookOpen, Scale, Shield, Users, Award, Briefcase, Globe } from "lucide-react"
-import { fetchLegalImages } from "@/lib/api"
 import { fetchBlogPosts } from "@/lib/blog"
 
-async function getImages() {
-  const images = await fetchLegalImages(3)
-  return images
+// Sample images for the homepage
+const images = {
+  hero: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80",
+  about:
+    "https://images.unsplash.com/photo-1505664194779-8beaceb93744?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+  service1:
+    "https://images.unsplash.com/photo-1589578527966-fdac0f44566c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+  service2:
+    "https://images.unsplash.com/photo-1521791055366-0d553872125f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+  service3:
+    "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
 }
 
 async function getLatestPosts() {
@@ -17,8 +24,20 @@ async function getLatestPosts() {
 }
 
 export default async function Home() {
-  const images = await getImages()
   const latestPosts = await getLatestPosts()
+
+  // Add image URLs to posts
+  const postsWithImages = latestPosts.map((post, index) => {
+    const imageUrls = [
+      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    ]
+    return {
+      ...post,
+      image: imageUrls[index % imageUrls.length],
+    }
+  })
 
   return (
     <div className="flex flex-col">
@@ -44,7 +63,7 @@ export default async function Home() {
         </div>
         <div className="absolute inset-0  overflow-hidden">
           <Image
-            src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80"
+            src={images.hero || "/placeholder.svg"}
             alt="Legal background"
             fill
             className="object-cover"
@@ -127,7 +146,7 @@ export default async function Home() {
             </div>
             <div className="relative h-[400px] overflow-hidden rounded-lg shadow-xl">
               <div className="absolute -left-4 -top-4 h-full w-full rounded-lg border-2 border-primary/30" />
-              <Image src="/images/legal-2.jpg" alt="Legal professionals" fill className="object-cover" />
+              <Image src={images.about || "/placeholder.svg"} alt="Legal professionals" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -148,7 +167,7 @@ export default async function Home() {
             <Card className="group overflow-hidden border-0 bg-white shadow-lg transition-all hover:-translate-y-2 hover:shadow-xl">
               <div className="relative h-48 w-full overflow-hidden">
                 <Image
-                  src="/images/legal-3.jpg"
+                  src={images.service1 || "/placeholder.svg"}
                   alt="Corporate Compliance"
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -181,7 +200,7 @@ export default async function Home() {
             <Card className="group overflow-hidden border-0 bg-white shadow-lg transition-all hover:-translate-y-2 hover:shadow-xl">
               <div className="relative h-48 w-full overflow-hidden">
                 <Image
-                  src="/images/legal-4.jpg"
+                  src={images.service2 || "/placeholder.svg"}
                   alt="Foreign Direct Investment"
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -214,7 +233,7 @@ export default async function Home() {
             <Card className="group overflow-hidden border-0 bg-white shadow-lg transition-all hover:-translate-y-2 hover:shadow-xl">
               <div className="relative h-48 w-full overflow-hidden">
                 <Image
-                  src="/images/legal-5.jpg"
+                  src={images.service3 || "/placeholder.svg"}
                   alt="Taxation"
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -270,14 +289,14 @@ export default async function Home() {
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {latestPosts.map((post, index) => (
+            {postsWithImages.map((post, index) => (
               <Card
                 key={index}
                 className="group overflow-hidden border-0 bg-white shadow-lg transition-all hover:-translate-y-2 hover:shadow-xl"
               >
                 <div className="relative h-48 w-full overflow-hidden">
                   <Image
-                    src={post.image || "/images/legal-" + ((index % 5) + 6) + ".jpg"}
+                    src={post.image || "/placeholder.svg"}
                     alt={post.title}
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -316,7 +335,7 @@ export default async function Home() {
               className="bg-gradient-to-r from-primary to-indigo-600 text-white hover:from-primary/90 hover:to-indigo-600/90"
             >
               <Link href="/blog">
-                View All Articles <ArrowRight className="ml-2 h-4 w-4" />
+                View All Insights <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
           </div>
@@ -418,4 +437,3 @@ export default async function Home() {
     </div>
   )
 }
-

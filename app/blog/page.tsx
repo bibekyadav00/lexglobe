@@ -225,41 +225,6 @@ export default async function BlogPage() {
           </div>
         </div>
       </section>
-
-      {/* Newsletter Section */}
-      <section className="py-16">
-        <div className="container">
-          <div className="overflow-hidden rounded-2xl bg-gradient-to-r from-primary to-indigo-600 shadow-xl">
-            <div className="grid md:grid-cols-2">
-              <div className="relative hidden md:block">
-                <Image
-                  src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-                  alt="Newsletter signup"
-                  fill
-                  className="object-cover"
-                />
-                <div className="absolute inset-0 bg-primary/30" />
-              </div>
-              <div className="p-8 text-white md:p-12">
-                <h2 className="mb-4 text-3xl font-bold">Subscribe to Our Newsletter</h2>
-                <p className="mb-6">
-                  Stay updated with the latest legal developments and insights on corporate law in Nepal. We send a
-                  monthly digest of important updates and articles.
-                </p>
-                <div className="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <input
-                    type="email"
-                    placeholder="Your email address"
-                    className="flex-1 rounded-md border border-white/30 bg-white/10 px-4 py-2 text-white placeholder-white/70 backdrop-blur-sm"
-                  />
-                  <Button className="bg-white text-primary hover:bg-white/90">Subscribe</Button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   )
 }
-

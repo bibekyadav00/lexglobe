@@ -79,4 +79,3 @@ export async function fetchLegalImages(count = 6) {
   // Return requested number of images
   return legalImages.slice(0, count)
 }
-
