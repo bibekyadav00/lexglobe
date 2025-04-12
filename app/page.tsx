@@ -34,10 +34,10 @@ export default async function Home() {
             A premier legal firm in Nepal specializing in corporate law and business advisory services
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Button asChild size="lg" className="bg-white text-primary hover:bg-gray-100">
+            <Button asChild size="lg" className="bg-white text-gray-800 hover:bg-gray-100">
               <Link href="/contact">Contact Us</Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-white text-primery hover:bg-white/10">
+            <Button asChild size="lg" variant="outline" className="border-white text-gray-800 hover:bg-white/10">
               <Link href="/practice-areas">Our Services</Link>
             </Button>
           </div>

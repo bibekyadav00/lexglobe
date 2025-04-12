@@ -45,11 +45,11 @@ export default function Footer() {
               </div>
               <div className="flex items-start">
                 <Phone className="mr-3 h-5 w-5 text-white/80" />
-                <span>+977-9746478828</span>
+                <span>+977-9700499414</span>
               </div>
               <div className="flex items-start">
                 <Mail className="mr-3 h-5 w-5 text-white/80" />
-                <span>prabinyadav008@gmail.com</span>
+                <span>infolexglobepartners@gmail.com</span>
               </div>
             </div>
           </div>
