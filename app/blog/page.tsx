@@ -175,7 +175,7 @@ export default async function BlogPage() {
       </section>
 
       {/* External Articles */}
-      <section className="bg-gradient-to-r from-indigo-50 to-purple-50 py-16">
+      {/* <section className="bg-gradient-to-r from-indigo-50 to-purple-50 py-16">
         <div className="container">
           <div className="mb-8">
             <h2 className="text-3xl font-bold text-primary">From Medhya Legal</h2>
@@ -224,7 +224,7 @@ export default async function BlogPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }
