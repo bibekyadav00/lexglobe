@@ -8,6 +8,7 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 import SocialButtons from "@/components/social-buttons"
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
