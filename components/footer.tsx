@@ -4,7 +4,7 @@ import { Mail, MapPin, Phone, Facebook } from "lucide-react"
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-primary to-indigo-600 text-white">
+    <footer className="bg-gradient-to-r from-primary to-black text-white">
       <div className="container py-16">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
           <div>
