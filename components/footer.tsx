@@ -4,7 +4,7 @@ import { Mail, MapPin, Phone, Facebook } from "lucide-react"
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-primary to-black text-white">
+    <footer className="bg-gradient-to-r from-black to-black text-white">
       <div className="container py-16">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
           <div>
@@ -112,13 +112,13 @@ export default function Footer() {
           <p>© {new Date().getFullYear()} LexGlobe Partners. All rights reserved.</p>
           <div className="mt-4 flex justify-center space-x-6">
             <Link href="/privacy-policy" className="text-sm text-white/80 hover:text-white">
-              Privacy Policy
+              {/* Privacy Policy */}
             </Link>
             <Link href="/terms-of-service" className="text-sm text-white/80 hover:text-white">
-              Terms of Service
+              {/* Terms of Service */}
             </Link>
             <Link href="/disclaimer" className="text-sm text-white/80 hover:text-white">
-              Disclaimer
+              {/* Disclaimer */}
             </Link>
           </div>
         </div>
