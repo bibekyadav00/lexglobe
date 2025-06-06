@@ -19,7 +19,7 @@ const images = {
 }
 
 async function getLatestPosts() {
-  const posts = await fetchBlogPosts(3)
+  const posts = await fetchBlogPosts()
   return posts
 }
 
