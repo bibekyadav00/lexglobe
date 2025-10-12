@@ -35,7 +35,7 @@ const fontSans = FontSans({
 export const metadata: Metadata = {
   title: "LexGlobe Partners - Corporate Law Firm in Nepal",
   description: "Leading legal firm in Nepal specializing in corporate law, FDI, taxation, and more.",
-    generator: 'vivek'
+    generator: "Bibek yadav"
 }
 
 export default function RootLayout({
