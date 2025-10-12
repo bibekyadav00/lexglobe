@@ -70,7 +70,7 @@ export default async function Home() {
             priority
           />
         </div>
-      </section>
+      </sectio>
 
       {/* Stats Section */}
       <section className="bg-white py-12">
