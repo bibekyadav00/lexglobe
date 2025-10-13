@@ -109,7 +109,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 border-t border-white/20 pt-8 text-center">
-          <p>© {new Date().getFullYear()} LexGlobe Partners. All rights reserved.<a href="https://medhacorplaw.com/" target="_blank" rel="noopener noreferrer">Law Firm in Nepal</a></p>
+          <p>© {new Date().getFullYear()} LexGlobe Partners. All rights reserved. <a href="https://medhacorplaw.com/" target="_blank" rel="noopener noreferrer">Law Firm in Nepal</a></p>
           <div className="mt-4 flex justify-center space-x-6">
             <Link href="/privacy-policy" className="text-sm text-white/80 hover:text-white">
               {/* Privacy Policy */}
