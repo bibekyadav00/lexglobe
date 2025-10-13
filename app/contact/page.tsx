@@ -113,16 +113,15 @@ export default function ContactPage() {
           <div className="overflow-hidden rounded-lg shadow-xl">
             <div className="relative">
               <div className="absolute left-8 top-8 z-10 max-w-md rounded-lg bg-white p-6 shadow-lg">
-                <h3 className="mb-2 text-xl font-bold text-primary">Our Office Location <a href="https://www.google.com/maps/place/Lexglobe+Partners:+Law+Firm+in+Nepal/@27.687469,85.3340235,17z/data=!4m20!1m13!4m12!1m4!2m2!1d85.3366246!2d27.6872888!4e1!1m6!1m2!1s0x8c31621e334f593b:0x44cf7b4d32e9bfca!2sKathmandu+44600!2m2!1d85.3367355!2d27.6876249!3m5!1s0x8c31621e334f593b:0x44cf7b4d32e9bfca!8m2!3d27.6876249!4d85.3367355!16s%2Fg%2F11x_7txqlz?entry=ttu&g_ep=EgoyMDI1MTAwOC4wIKXMDSoASAFQAw%3D%3D" 
-   title="Find our office location on Google Maps" target="_blank" rel="noopener noreferrer">
-  Our office location
-</a></h3>
+                <h3 className="mb-2 text-xl font-bold text-primary">Our Office Location
                 <p className="mb-4 text-gray-600">
                   Visit our office in New Baneshwor, one of the central business districts in Kathmandu, Nepal.
                 </p>
               </div>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.4587890323!2d85.32650931506156!3d27.70293798279492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb199a06c2eaf9%3A0xc5670a9173e161de!2sAnamnagar%2C%20Kathmandu%2044600!5e0!3m2!1sen!2snp!4v1616005811000!5m2!1sen!2snp"
+                src= <a href="https://www.google.com/maps/place/Lexglobe+Partners:+Law+Firm+in+Nepal/@27.687469,85.3340235,17z/data=!4m20!1m13!4m12!1m4!2m2!1d85.3366246!2d27.6872888!4e1!1m6!1m2!1s0x8c31621e334f593b:0x44cf7b4d32e9bfca!2sKathmandu+44600!2m2!1d85.3367355!2d27.6876249!3m5!1s0x8c31621e334f593b:0x44cf7b4d32e9bfca!8m2!3d27.6876249!4d85.3367355!16s%2Fg%2F11x_7txqlz?entry=ttu&g_ep=EgoyMDI1MTAwOC4wIKXMDSoASAFQAw%3D%3D" 
+   title="Find our office location on Google Maps" target="_blank" rel="noopener noreferrer">
+</a></h3>
                 width="100%"
                 height="500"
                 style={{ border: 0 }}
