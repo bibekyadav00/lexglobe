@@ -93,11 +93,11 @@ export default function ContactPage() {
                   <div className="col-span-7 p-6">
                     <CardTitle className="text-xl">Business Hours</CardTitle>
                     <CardDescription className="mt-2 text-base">
-                      Monday - Friday: 9:00 AM - 5:00 PM
+                      Monday - Friday: 9:00 AM - 6:00 PM
                       <br />
-                      Saturday: 10:00 AM - 2:00 PM
+                      Saturday: Closed
                       <br />
-                      Sunday: Closed
+                      Sunday: 9:00 AM  - 6:00 PM
                     </CardDescription>
                   </div>
                 </div>
