@@ -115,7 +115,7 @@ export default function ContactPage() {
               <div className="absolute left-8 top-8 z-10 max-w-md rounded-lg bg-white p-6 shadow-lg">
                 <h3 className="mb-2 text-xl font-bold text-primary">Our Office Location</h3>
                 <p className="mb-4 text-gray-600">
-                  Visit our office in Anamnagar, one of the central business districts in Kathmandu, Nepal.
+                  Visit our office in New Baneshwor, one of the central business districts in Kathmandu, Nepal.
                 </p>
               </div>
               <iframe
