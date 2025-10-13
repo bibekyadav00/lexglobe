@@ -50,7 +50,7 @@ export default async function Home() {
           </div>
           <h1 className="mb-6 text-4xl font-bold leading-tight md:text-5xl lg:text-6xl">LexGlobe Partners</h1>
           <p className="mb-8 max-w-2xl text-xl md:text-2xl">
-            A premier legal firm in Nepal specializing in corporate law and business advisory services
+            A leading law firm in Nepal specializing in corporate law, business and foreign direct investment advisory services
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button asChild size="lg" className="bg-white text-gray-800 hover:bg-gray-100">
@@ -112,7 +112,7 @@ export default async function Home() {
                   <Globe className="h-8 w-8 text-amber-600" />
                 </div>
               </div>
-              <h3 className="text-4xl font-bold text-amber-600">50+</h3>
+              <h3 className="text-4xl font-bold text-amber-600">100+</h3>
               <p className="text-gray-600">International Clients</p>
             </div>
           </div>
