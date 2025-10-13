@@ -126,7 +126,7 @@ export default async function Home() {
             <div className="flex flex-col justify-center">
               <h2 className="mb-6 text-3xl font-bold text-primary md:text-4xl">About LexGlobe Partners</h2>
               <p className="mb-6 text-lg">
-                LexGlobe Partners is a leading corporate firm based in Kathmandu, Nepal, specializing in corporate and
+                LexGlobe Partners is a leading corporate law firm based in Nepal, Kathmandu, specializing in corporate and
                 business law. Our team of experienced attorneys provides comprehensive legal services to businesses,
                 entrepreneurs, and organizations operating in Nepal.
               </p>
@@ -158,7 +158,7 @@ export default async function Home() {
           <div className="mb-12 text-center">
             <h2 className="mb-4 text-3xl font-bold text-primary md:text-4xl">Our Practice Areas</h2>
             <p className="mx-auto max-w-2xl text-lg text-gray-600">
-              We offer specialized legal services across a wide range of practice areas to meet the diverse needs of our
+              We offer specialized corporate and business services across a wide range of practice areas to meet the diverse needs of our
               clients.
             </p>
           </div>

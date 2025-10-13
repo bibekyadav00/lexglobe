@@ -44,7 +44,7 @@ export default function ContactPage() {
                   </div>
                   <div className="col-span-3 p-6">
                     <CardTitle className="text-xl">Address</CardTitle>
-                    <CardDescription className="mt-2 text-base">Anamnagar, Kathmandu, Nepal</CardDescription>
+                    <CardDescription className="mt-2 text-base">New Baneshwor, Kathmandu, Nepal</CardDescription>
                   </div>
                 </div>
               </Card>
