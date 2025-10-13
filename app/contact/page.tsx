@@ -119,15 +119,15 @@ export default function ContactPage() {
                 </p>
               </div>
               <iframe
-                src= <a href="https://www.google.com/maps/place/Lexglobe+Partners:+Law+Firm+in+Nepal/@27.687469,85.3340235,17z/data=!4m20!1m13!4m12!1m4!2m2!1d85.3366246!2d27.6872888!4e1!1m6!1m2!1s0x8c31621e334f593b:0x44cf7b4d32e9bfca!2sKathmandu+44600!2m2!1d85.3367355!2d27.6876249!3m5!1s0x8c31621e334f593b:0x44cf7b4d32e9bfca!8m2!3d27.6876249!4d85.3367355!16s%2Fg%2F11x_7txqlz?entry=ttu&g_ep=EgoyMDI1MTAwOC4wIKXMDSoASAFQAw%3D%3D" 
-   title="Find our office location on Google Maps" target="_blank" rel="noopener noreferrer">
+                src= 
 </a></h3>
                 width="100%"
                 height="500"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
-                title="LexGlobe Partners Office Location"
+                title="LexGlobe Partners <a href="https://www.google.com/maps/place/Lexglobe+Partners:+Law+Firm+in+Nepal/@27.687469,85.3340235,17z/data=!4m20!1m13!4m12!1m4!2m2!1d85.3366246!2d27.6872888!4e1!1m6!1m2!1s0x8c31621e334f593b:0x44cf7b4d32e9bfca!2sKathmandu+44600!2m2!1d85.3367355!2d27.6876249!3m5!1s0x8c31621e334f593b:0x44cf7b4d32e9bfca!8m2!3d27.6876249!4d85.3367355!16s%2Fg%2F11x_7txqlz?entry=ttu&g_ep=EgoyMDI1MTAwOC4wIKXMDSoASAFQAw%3D%3D" 
+   title="Find our office location on Google Maps" target="_blank" rel="noopener noreferrer"></a>"
               ></iframe>
             </div>
           </div>
