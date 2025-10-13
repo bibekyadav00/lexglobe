@@ -22,7 +22,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="mb-6">
-              A leading legal firm in Nepal specializing in corporate law and business advisory services.
+              <a href="https://medhacorplaw.com/" target="_blank" rel="noopener noreferrer">A leading law firm in Nepal</a> specializing in corporate law and business advisory services.
             </p>
             <div className="flex items-center space-x-4">
               <a
