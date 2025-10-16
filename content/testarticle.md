@@ -1,219 +1,206 @@
 ---
-title: "Test Article"
+title: "Company Registration in Nepal 2025 (Updated Comprehensive Legal Guide)"
 date: "2025-10-13"
 excerpt: "Test HEading"
 author: "Prabin"
-tags: ["business registration", "nepal", "bakery", "food business"]
+tags: ["business registration", "nepal", "Company Registration", "Online business"]
 ---
 
-## What Is the Process to Register Bakery
+Introduction
 
-Registering a bakery in Nepal involves multiple legal and procedural steps. It includes selecting the business structure, obtaining government approvals, submitting applications, and ensuring compliance with food safety standards. The process is managed by the Office of the Company Registrar (OCR) under the Ministry of Industry, Commerce and Supplies.
+Company registration in Nepal in 2025 continues to be regulated by the Companies Act, 2063 (2006) and associated Company Rules, 2064 (2008). The Office of the Company Registrar (OCR), under the Ministry of Industry, Commerce, and Supplies (MoICS), serves as the central administrative authority. The registration process is now fully digitalized through the OCR’s online portal ocr.gov.np
+, making it mandatory for promoters to submit incorporation documents, pay fees electronically, and obtain the Certificate of Incorporation online.
 
-Bakery registration follows these key stages:
-- Deciding business structure (sole proprietorship, partnership, private limited company)
-- Name reservation through OCR's online system
-- Submission of registration application with required documents
-- Tax registration (PAN/VAT)
-- Food and safety licensing under the Department of Food Technology and Quality Control
+In Nepal, company registration is the legal foundation for establishing a separate legal entity distinct from its promoters. Once registered, a company obtains the right to own property, enter into contracts, sue, and be sued under its own name. The process ensures that every business operates transparently, complies with statutory laws, and contributes to the formal economy.
 
-All bakery establishments must be registered under the Companies Act 2006 or the Firm Registration Act 2014 depending on structure. Failure to comply may result in legal action.
+In 2025, several administrative and procedural refinements have been implemented at the OCR to streamline the registration process. The government’s objective is to improve ease of doing business, ensure online service reliability, and enforce corporate governance standards. The procedures described herein apply uniformly across Nepal and are binding under the Companies Act.
 
-## What Are the Legal Requirements to Register
+1. Legal Framework for Company Registration in Nepal
 
-To legally register a bakery in Nepal, applicants must meet certain prerequisites. These include legal capacity, age, business address, and compliance with Nepalese business and health laws.
+The Companies Act, 2063 (2006), as amended, is the principal statute governing company incorporation, management, and dissolution in Nepal. The Act defines a company as a “corporate body incorporated under this Act having perpetual succession and a common seal.”
 
-Legal requirements include:
-- Applicant must be at least 18 years old
-- Must have a valid Nepali citizenship or appropriate visa for foreigners
-- Valid business location address with a tenancy agreement or ownership proof
-- Business should comply with local zoning rules and sanitation standards
+Primary Laws and Regulations
 
-Laws such as the Companies Act 2006, Food Act 1966, and Local Government Operation Act 2017 regulate the establishment and operation of bakeries in Nepal.
+The following legal instruments govern company registration and operation in Nepal:
 
-## Where to Register a Bakery Business
+Companies Act, 2063 (2006) – Main statute defining company incorporation, operation, and compliance.
 
-Bakery businesses in Nepal can be registered either at the Office of the Company Registrar (for companies) or at the respective District Administration Office (for sole proprietors or partnerships).
+Company Rules, 2064 (2008) – Procedural framework for applications, documents, and fee schedules.
 
-Where to register:
-- Private Limited Companies: Register at Office of the Company Registrar (OCR), Tripureshwor, Kathmandu or online at ocr.gov.np
-- Sole Proprietorship or Partnership: Register at local District Administration Office
+Industrial Enterprises Act, 2076 (2019) – Regulates industry-based companies.
 
-Additionally, PAN/VAT registration must be completed at the Inland Revenue Office (IRO).
+Foreign Investment and Technology Transfer Act (FITTA), 2075 (2019) – Applies to companies with foreign ownership.
 
-## How to Choose the Right Business Type
+Income Tax Act, 2058 (2002) and Value Added Tax Act, 2052 (1996) – Tax registration and compliance.
 
-Choosing the right business type depends on capital, liability, ownership structure, and future scalability. The main types are:
-- Sole Proprietorship: Suitable for small bakeries. Easy to start and manage.
-- Partnership: Ideal for bakeries with two or more owners. Profits shared as per agreement.
-- Private Limited Company: Best for scalability and legal separation. Requires more documentation and formalities.
+Labour Act, 2074 (2017) and Labour Rules, 2075 (2018) – Regulate employment structure and obligations.
 
-Business type affects taxation, legal liability, and compliance duties.
+Auditor General Act, 2048 (1991) – Governs statutory audit requirements.
 
-## What Documents Are Needed for Registration
+The Office of the Company Registrar (OCR) functions as the sole national authority to:
 
-Document requirements vary by business structure but generally include:
-- Name reservation certificate
-- Application form
-- Citizenship copies of promoters/owners
-- Passport-sized photographs
-- Rental or ownership agreement of bakery premises
-- MOA and AOA (for companies)
-- Partnership deed (for partnerships)
-- PAN application form
+Approve company names and ensure they meet Section 8 of the Act.
 
-Food license will require:
-- Kitchen layout
-- Water test report
-- Health certificate
-- Food safety commitment form
+Register Memorandum and Articles of Association.
 
-## How to Get a PAN and VAT Number
+Maintain records of companies.
 
-PAN (Permanent Account Number) and VAT (Value Added Tax) are issued by the Inland Revenue Office.
+Issue the Certificate of Incorporation.
 
-Steps to get PAN:
-1. Submit application at the nearest IRO
-2. Provide business registration certificate
-3. Attach rental agreement and photos
-4. Receive PAN certificate
+Enforce compliance and oversee liquidation procedures.
 
-Steps to get VAT:
-1. Apply if turnover exceeds NPR 2 million annually
-2. Submit PAN, business registration, and tax compliance documents
-3. VAT registration is mandatory for food businesses selling packaged goods
+All corporate registration records are maintained digitally in the Central Company Database. Every company must use its unique registration number for official transactions, tax filings, and regulatory submissions.
 
-## What Licenses Are Required for Bakeries
+2. Types of Companies in Nepal
 
-Bakeries require licenses to ensure hygiene and compliance with food safety regulations.
+Under Section 3 of the Companies Act, 2063, companies in Nepal are classified into distinct types based on ownership structure, profit distribution, and purpose of operation.
 
-Primary licenses include:
-- Business Registration Certificate
-- PAN/VAT Registration Certificate
-- Food License from Department of Food Technology and Quality Control
-- Local municipal/ward office business permit
+a. Private Limited Company (Pvt. Ltd.)
 
-For packaged food items, a packaging and labeling license is also necessary.
+A Private Limited Company is the most common corporate structure in Nepal.
+Key Features:
 
-## What Are the Steps to Register a Bakery
+Minimum of one shareholder and maximum of 101 shareholders.
 
-Here are the standard steps to register a bakery:
-1. Decide business structure (sole, partnership, company)
-2. Reserve business name at OCR (for companies)
-3. Prepare required documents
-4. Submit registration application
-5. Obtain business registration certificate
-6. Apply for PAN at Inland Revenue Office
-7. Register for VAT if applicable
-8. Apply for food license from Department of Food Technology and Quality Control
-9. Receive inspection and final approval
+Minimum of one director.
 
-## How Much Time Bakery Registration Takes
+Shares are not transferable to the general public.
 
-The entire bakery registration process may take 10 to 20 working days if all documents are ready.
-- Name reservation: 1–2 days
-- Business registration: 3–5 days
-- PAN registration: 2–3 days
-- VAT registration (if needed): 2–3 days
-- Food license approval: 5–10 days (includes inspection)
+Liability of shareholders is limited to the amount unpaid on their shares.
 
-Delays may occur due to incomplete applications or verification issues.
+Commonly used for small and medium enterprises.
 
-## What Is the Total Bakery Setup Cost
+Legal Reference:
+Section 4(2) and Section 5 of the Act define private companies and their characteristics.
 
-Setup cost depends on scale, location, and type of bakery. Estimated costs:
-- Business registration fees: NPR 1,000–5,000
-- PAN/VAT registration: NPR 100–500
-- Food license: NPR 1,000–2,000
-- Legal & consultancy: NPR 10,000–25,000
-- Kitchen setup & equipment: NPR 200,000–800,000
-- Staff & training: NPR 50,000–100,000
+Typical examples: service companies, IT firms, consulting agencies, import-export businesses.
 
-Total cost ranges from NPR 300,000 to 1,000,000 depending on business scale.
+b. Public Limited Company (Ltd.)
 
-## What Are the Official Government Fees
+A Public Limited Company can issue shares and debentures to the public.
+Key Features:
 
-Government fees include:
-- Business registration fee: NPR 1,000–5,000 (depends on capital)
-- PAN registration: Free
-- VAT registration: Free
-- Food license fee: NPR 1,000
-- Name reservation: NPR 100
+Minimum of seven shareholders and three directors.
 
-Fees may vary slightly by district or municipality.
+Can invite public subscription for shares.
 
-## What Laws Apply to Bakery Businesses
+Must publish a prospectus under Section 23 before issuing shares.
 
-Key laws regulating bakery businesses:
-- Companies Act 2006 (for company registration)
-- Firm Registration Act 2014 (for partnerships)
-- Food Act 1966 (for hygiene and food quality)
-- Industrial Enterprises Act 2020
-- Local Government Operation Act 2017
+Minimum paid-up capital is NPR 10 million unless otherwise prescribed.
 
-These laws regulate setup, taxation, food safety, and local compliance.
+Legal Reference:
+Sections 3(1), 23–25 of the Act.
 
-## Which Authorities Approve Bakery Registrations
+Examples: banks, insurance companies, hydropower projects, and manufacturing corporations.
 
-Relevant authorities include:
-- Office of the Company Registrar (OCR)
-- District Administration Office (DAO)
-- Inland Revenue Office (IRO)
-- Department of Food Technology and Quality Control
-- Local Ward Office or Municipality
+c. Non-Profit Company
 
-Each authority has its own domain based on nature and scale of the bakery.
+A Non-Profit Company is incorporated under Section 166 of the Act.
+Key Features:
 
-## What Services Are Offered After Registration
+At least seven promoters are required.
 
-Post-registration services include:
-- Food inspection and monitoring by food department
-- Tax filing and compliance services
-- Annual renewal of registration (in some cases)
-- Training and sanitation workshops by local municipalities
-- Market monitoring and labeling regulation checks
+Cannot distribute dividends or profits.
 
-## What Is the Final Bakery Setup Checklist
+Operates for social welfare, charity, or public benefit.
 
-Final checklist before starting bakery operations:
-- Business registration certificate
-- PAN and VAT number
-- Food license
-- Rental/ownership agreement
-- Health and sanitation clearance
-- Proper labeling and packaging license (if needed)
-- Fire and safety equipment setup
-- Staff with medical fitness certificates
+Profits, if any, must be reinvested to achieve the objectives stated in the MOA.
 
-## FAQs
+Examples: NGOs, development organizations, professional councils, and research bodies.
 
-### How to register my bakery name?
-You can register your bakery name by applying through the Office of the Company Registrar's online portal. Name reservation must be approved before proceeding with company registration. Ensure the name is not already taken by checking the OCR database.
+d. Foreign Company or Branch Office
 
-### What license do I need first?
-The first license required is the business registration certificate, followed by PAN. Then, obtain a food license from the Department of Food Technology and Quality Control to operate legally.
+Under Section 154 of the Act, a company incorporated outside Nepal may register as a foreign company if it establishes a place of business or branch office within Nepal.
 
-### Is bakery registration done online?
-Yes, company name reservation and registration can be done online via ocr.gov.np. PAN registration requires a physical visit to the Inland Revenue Office. Food license application is mostly offline.
+Requirements:
 
-### How much does it usually cost?
-On average, the bakery registration process costs NPR 15,000 to 30,000 excluding setup and equipment. Legal consultation, license fees, and documentation are the main expenses.
+Must register within 30 days of setting up business in Nepal.
 
-### How long does it normally take?
-If all documents are in order, bakery registration takes around 10 to 20 working days. Delays can occur due to inspections, licensing, or document corrections.
+Submit certified copies of its incorporation documents and authorization.
 
-### Do I need VAT registration?
-VAT registration is required if your bakery's annual turnover exceeds NPR 2 million or if you sell packaged goods. You can apply for VAT at the Inland Revenue Office after PAN registration.
+Maintain at least one authorized representative in Nepal.
 
-### Can I sell packaged bakery goods?
-Yes, you can sell packaged items, but you must obtain a packaging and labeling license and follow food safety standards outlined in the Food Act 1966 and related regulations.
+Examples: international airlines, IT outsourcing branches, liaison offices.
 
-### Where do I apply for registration?
-You can apply at the Office of the Company Registrar or the District Administration Office depending on the business type. Additional registrations are done at Inland Revenue Office and Food Department.
+e. Government-Owned and Public Enterprises
 
-### Do I need a food license?
-Yes, all bakeries must have a food license from the Department of Food Technology and Quality Control. It ensures your products meet hygiene and safety standards.
+Companies fully or partially owned by the Government of Nepal are registered as government enterprises under special statutes or under the Companies Act itself. They follow similar corporate formalities but are also subject to audit by the Office of the Auditor General.
 
-### Is registration mandatory for bakeries?
-Yes, registration is mandatory under the Companies Act or Firm Registration Act. Operating without a valid registration is punishable under Nepalese commercial and food safety laws.
-\`\`\`
+3. Pre-Registration Requirements
+
+Before submitting an application for company registration, promoters must ensure compliance with several pre-registration conditions as prescribed in Section 8 and 9 of the Act.
+
+a. Name Reservation
+
+Company name approval is the first and mandatory step.
+Process:
+
+Access the OCR’s online portal and use the “Name Reservation” feature.
+
+Conduct a search to confirm availability.
+
+Submit proposed names (up to three) for consideration.
+
+OCR reviews and approves one name if it does not duplicate or closely resemble any registered entity.
+
+Name validity: 35 days from the date of approval.
+
+Restrictions (Section 8(3)):
+A company name shall not:
+
+Contradict national interest, public order, or morality.
+
+Be identical or deceptively similar to an existing name.
+
+Contain prohibited or misleading words.
+
+Misrepresent government or international organizations.
+
+Output:
+An Electronic Name Approval Letter issued by OCR, which must be attached to the incorporation application.
+
+b. Determination of Registered Office Address
+
+Every company must have a registered office address within Nepal.
+Requirements:
+
+The address must be clearly mentioned in the MOA and AOA.
+
+Proof of ownership or a lease agreement must be attached.
+
+The address is used for all legal correspondence and inspection by authorities.
+
+c. Capital Structure
+
+The Act requires companies to state their authorized, issued, and paid-up capital in the MOA.
+
+Types of Capital:
+
+Authorized Capital: Maximum amount of capital that the company can issue.
+
+Issued Capital: Portion of authorized capital offered to shareholders.
+
+Paid-up Capital: Amount actually paid by shareholders.
+
+For private companies, there is no statutory minimum capital requirement. However, specific sectors such as banking, insurance, and hydropower have prescribed minimum capital thresholds under their respective regulatory laws.
+
+d. Promoters and Shareholders
+
+Promoters are the initial subscribers to the company’s MOA.
+Requirements:
+
+Must be natural persons or legal entities capable of contracting under Nepali law.
+
+Foreign nationals can be promoters subject to FITTA approval.
+
+Citizenship certificates or passport copies are mandatory.
+
+e. Digital Account and Signatures
+
+As per OCR’s 2025 practice, all registration submissions must be digital.
+
+Promoters must create user accounts in the OCR portal.
+
+Scanned and digitally signed copies of all documents are required.
+
+Payments are processed through e-payment systems integrated into the OCR website.
